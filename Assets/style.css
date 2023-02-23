@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    color: white;
+}
+
+footer {
+    background-color: #0b4d14;
+    color: white;
+}
+
+header ul,
+footer ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 1rem 1rem 1rem 10rem;
+}
+
+header li,
+footer li {
+    margin-right: 2rem;
+}
+
+#facebook {
+    margin-left: 35rem;
+}
+
+.intro {
+    background-color: #c6bfbf;
+    padding: 2rem 8rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.intro p {
+    margin-top: 1rem;
+}
+
+.intro a {
+    color: rgb(78, 78, 243);
+}
+
+.content {
+    display: flex;
+    margin: 1rem 0 9rem 0;
+    padding: 0 8rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
